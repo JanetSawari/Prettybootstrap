@@ -51,6 +51,23 @@ font-family:Helvetica;
   color: #FFFFFF;
 }
 
+.btn-button2{
+  height:auto;
+  width:auto;
+  border-radius:25px;
+  background:none;
+  color:#FF4E50;
+  font-family: Helvetica;
+  border-color: #FF4E50;
+  margin-top:48px;
+  margin-bottom:48px;
+}
+
+.btn-button2:a:hover{
+color: none;
+text-decoration: none;
+}
+
 .btn-button0{
   height:36px;
   width: 90px;
@@ -64,7 +81,37 @@ font-family:Helvetica;
   display: inline;
 }
 
+.btn-button0:a:hover{
+  text-decoration: none;
+}
+
 .btn-button3{
+  height:20px;
+  width: 70px;
+  border-radius:10px;
+  background-color: #FF4E50;
+  color: #FFFFFF;
+  align-self: auto;
+  margin-top: 70%;
+  font-size:10px;
+  align-content: center;
+  font-family: Helvetica;
+}
+
+.btn-button4{
+  height:20px;
+  width: 70px;
+  border-radius:10px;
+  background-color: #FF4E50;
+  color: #FFFFFF;
+  align-self: auto;
+  margin-top: 70%;
+  font-size:10px;
+  align-content: center;
+  font-family: Helvetica;
+}
+
+.btn-button5{
   height:20px;
   width: 70px;
   border-radius:10px;
@@ -118,9 +165,72 @@ font-family:Helvetica;
   margin-right: 250px;
 }
 
+.sec3header{
+  margin-top:95px;
+}
+
 #company{
   list-style: none;
 }
+
+#footerh4{
+  color:#FF4E50;
+  font-size: 16px;
+}
+
+#coco{
+font-size:14px;
+color:#999999 ;
+font-family:Helvetica;
+list-style: none;
+}
+
+#coco:ul:li{
+  list-style: none;
+  text-decoration: none;
+}
+
+#company{
+font-size: 14px;
+color:#444444;
+font-family:Helvetica; 
+margin-right:171px;
+}
+
+#partners{
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #444444;
+}
+#sec2title{
+font-size:24px;
+color:#ffffff ;
+font-family:Helvetica;
+}
+
+#sec2para{
+font-size: 14px;
+color:#E3E3E3;
+font-family:Helvetica ;
+}
+
+#sec3title{
+font-size:14px;
+color: #444444;
+font-family:helvetica ;
+}
+
+#sec3para{
+font-size: 14px;
+color:#666666;
+font-family:helvetica;
+}
+.sec3header{
+  font-size: 22px;
+  font-family: helvetica;
+  color:#444444;
+}
+
   </style>
 </head>
 <body>
@@ -155,47 +265,52 @@ font-family:Helvetica;
     <h1 class="header text-center">How it works!</h1>
       <div class="prt1 container col-md-3 col-sm-3 col-lg-3">
         <button class="btn btn-button3 text-center">STEP 1</button>
-        <h1>Search Online</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        <h1 id="sec2title">Search Online</h1>
+        <p id="sec2para">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
            sed do eiusmod tempor incididunt ut labore et dolore magna 
            aliqua
         </p>
       </div>
       <div class="prt2 container col-md-3 col-sm-3 col-lg-3">
-          <h1>Find Buddy</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+       <button class="btn btn-button4 text-center">STEP 2</button>
+        <h1 id="sec2title">Find Buddy</h1>
+          <p id="sec2para">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna 
               aliqua</p>
         </div>
         <div class="prt3 container col-md-3 col-sm-3 col-lg-3">
-            <h1>Travel Buddy</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        <button class="btn btn-button5 text-center">STEP 3</button>            
+          <h1 id="sec2title">Travel Buddy</h1>
+            <p id="sec2para">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
                 aliqua</p>
           </div>
   </div>
   <div class="sec3 container">
     <div class="row">
-    <h1 class="header text-center">Meet a Partner for the best holiday!</h1>    
+    <h1 class="sec3header text-center">Meet a Partner for the best holiday!</h1>    
      <div class="col-sm-3 col-md-3 col-lg-3">
-       <img src="./img/#" id="">
-         <h4>dudes name</h4>
-         <p>dudes descript.....</p>
+       <img src="./img/Boy1.png" id="">
+         <h4 id="sec3title">Bradley Hunter </h4>
+         <p id="sec3para">Based in Chicago. I love playing teniss and basketball</p>
        </div>
        <div class="col-sm-3 col-md-3 col-lg-3">
-          <img src="./img/#" id="">
-            <h4>dudes name</h4>
-            <p>dudes descript.....</p>
+          <img src="./img/girl1.png" id="">
+            <h4 id="sec3title">Diana Wells</h4>
+            <p id="sec3para">Living in Athens, Greece. I love black and white classics,
+               chillout music and green tea.</p>
           </div>
           <div class="col-sm-3 col-md-3 col-lg-3">
-              <img src="./img/#" id="">
-                <h4>dudes name</h4>
-                <p>dudes descript.....</p>
+              <img src="./img/girl2.png" id="">
+                <h4 id="sec3title">Marie Bennet</h4>
+                <p id="sec3para">Currently living in Colorado. Lover of art, 
+                  languages and travelling.</p>
               </div>
               <div class="col-sm-3 col-md-3 col-lg-3">
-                  <img src="./img/#" id="">
-                    <h4>dudes name</h4>
-                    <p>dudes descript.....</p>
+                  <img src="./img/boy2.png" id="">
+                    <h4 id="sec3title">Christopher Pierce</h4>
+                    <p id="sec3para">Star Wars fanatic. I have a persistent 
+                      enthusiasm to create new things.</p>
                   </div>
                   <div id="mybutton2">
                   <button class="btn btn-button2 btn-center">see other partners</button>
@@ -207,18 +322,21 @@ font-family:Helvetica;
 <footer class="container">
   <div class="row">
     <div class="col-md-2 col-sm-4 col-lg-2">
-      <h4>DREAMSHARE</h4>
+      <h4 id="footerh4">DREAMSHARE</h4>
     </div>
     <div class="col-md-2 col-sm-4 col-lg-2">
-        <ul id="company">Company
-          <li>About</li>
-          <li>Contact</li>
-          <li>Press</li>
-          <li>Blog</li>          
+<h4 id="company">Company</h4>
+      <ul id="coco">
+          <li >About</li>
+          <li >Contact</li>
+          <li >Press</li>
+          <li >Blog</li> 
+          <li >Help</li>
+          <li >Terms and Privacy</li>   
         </ul>
       </div>
       <div class="col-md-2 col-sm-4 col-lg-2">
-          <h4>PARTNERS</h4>
+          <h4 id="partners">Partners</h4>
         </div>
   </div>
 </footer>
