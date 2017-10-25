@@ -61,7 +61,7 @@ font-family:Helvetica;
   border-color: #FF4E50;
   margin-top:48px;
   margin-bottom:48px;
-}
+  }
 
 .btn-button2:a:hover{
 color: none;
@@ -79,9 +79,10 @@ text-decoration: none;
   margin-left: 0px;
   margin-right: 252px;
   display: inline;
+  
 }
 
-.btn-button0:a:hover{
+.btn-button0:a:link{
   text-decoration: none;
 }
 
@@ -231,10 +232,27 @@ font-family:helvetica;
   color:#444444;
 }
 
+#sec2header{
+  font-size: 22px;
+  font-family: helvetica;
+  color: #444444;
+}
+
+/* for my mobile */ 
+@media only screen and (min-width : 300px) and (max-width:320px) {
+  .body-head  {
+  position: fixed;
+ margin-bottom: 35px;
+  overflow: hidden;
+  padding: 0;
+ }
+}
+
+
   </style>
 </head>
 <body>
-  <div id="body-head">
+<div id="body-head">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="row">
@@ -262,7 +280,7 @@ font-family:helvetica;
 </div>
 <div class="sec2 container">
   <div class="row">
-    <h1 class="header text-center">How it works!</h1>
+    <h1 class="sec2header text-center">How it works?</h1>
       <div class="prt1 container col-md-3 col-sm-3 col-lg-3">
         <button class="btn btn-button3 text-center">STEP 1</button>
         <h1 id="sec2title">Search Online</h1>
